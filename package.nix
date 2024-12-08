@@ -5,12 +5,12 @@
 
 buildGoModule rec {
   pname = "kurtosis";
-  version = "0.89.11";
+  version = "1.4.3";
 
   src = ./.;
 
   proxyVendor = true;
-  vendorHash = "sha256-GaEIitoRiuYxtS7cDKobFyIlraDNQjcvbRvzG3nUKFU=";
+  vendorHash = "sha256-0LMsy8Xp/8fbtH41hpEEBfzmOplUjrRgTor0cYEg8zw=";
 
   postPatch =
     let
